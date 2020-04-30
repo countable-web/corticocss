@@ -22,27 +22,33 @@ h6 {
 }
 h1,
 .h1 {
-  font-size: 2rem;
+  font-size: calc(34px + (96 - 34) * ((100vw - 300px) / (1600 - 300)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
 }
 h2,
 .h2 {
-  font-size: 1.6rem;
+  font-size: calc(28px + (60 - 28) * ((100vw - 300px) / (1600 - 300)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
 }
 h3,
 .h3 {
-  font-size: 1.4rem;
+  font-size: calc(24px + (48 - 24) * ((100vw - 300px) / (1600 - 300)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
 }
 h4,
 .h4 {
-  font-size: 1.2rem;
+  font-size: calc(21px + (34 - 21) * ((100vw - 300px) / (1600 - 300)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
 }
 h5,
 .h5 {
-  font-size: 1rem;
+  font-size: calc(18px + (24 - 18) * ((100vw - 300px) / (1600 - 300)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
 }
 h6,
 .h6 {
-  font-size: .8rem;
+  font-size: calc(16px + (20 - 16) * ((100vw - 300px) / (1600 - 300)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
 }
 
 // Paragraphs

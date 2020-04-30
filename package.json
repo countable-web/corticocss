@@ -9,6 +9,9 @@
     "type": "git",
     "url": "https://github.com/picturepan2/spectre.git"
   },
+  "scripts": {
+    "gulp": "gulp"
+  },
   "license": "MIT",
   "keywords": [
     "css",

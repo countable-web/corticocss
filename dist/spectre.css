@@ -340,32 +340,38 @@ h6 {
 
 h1,
 .h1 {
-  font-size: 2rem;
+  font-size: calc(34px + (96 - 34) * ((100vw - 300px) / (1600 - 300)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
 }
 
 h2,
 .h2 {
-  font-size: 1.6rem;
+  font-size: calc(28px + (60 - 28) * ((100vw - 300px) / (1600 - 300)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
 }
 
 h3,
 .h3 {
-  font-size: 1.4rem;
+  font-size: calc(24px + (48 - 24) * ((100vw - 300px) / (1600 - 300)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
 }
 
 h4,
 .h4 {
-  font-size: 1.2rem;
+  font-size: calc(21px + (34 - 21) * ((100vw - 300px) / (1600 - 300)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
 }
 
 h5,
 .h5 {
-  font-size: 1rem;
+  font-size: calc(18px + (24 - 18) * ((100vw - 300px) / (1600 - 300)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
 }
 
 h6,
 .h6 {
-  font-size: .8rem;
+  font-size: calc(16px + (20 - 16) * ((100vw - 300px) / (1600 - 300)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
 }
 
 p {
@@ -610,7 +616,7 @@ html:lang(ko),
 }
 
 .btn.btn-primary {
-  background: #5755d9;
+  background: blue;
   border-color: #4b48d6;
   color: #fff;
 }
@@ -761,8 +767,8 @@ html:lang(ko),
 }
 
 .btn-group {
-  display: inline-flex;
   display: -ms-inline-flexbox;
+  display: inline-flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
@@ -796,8 +802,8 @@ html:lang(ko),
 }
 
 .btn-group.btn-group-block {
-  display: flex; 
   display: -ms-flexbox;
+  display: flex;
 }
 
 .btn-group.btn-group-block .btn {
@@ -1166,8 +1172,8 @@ textarea.form-input.input-sm {
 }
 
 .input-group {
-  display: flex; 
   display: -ms-flexbox;
+  display: flex;
 }
 
 .input-group .input-group-addon {
@@ -1237,8 +1243,8 @@ textarea.form-input.input-sm {
 }
 
 .input-group.input-inline {
-  display: inline-flex; 
   display: -ms-inline-flexbox;
+  display: inline-flex;
 }
 
 .has-success .form-input,
@@ -1349,8 +1355,8 @@ input.disabled + .form-icon {
 }
 
 .form-horizontal .form-group {
-  display: flex;
   display: -ms-flexbox;
+  display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
@@ -1537,8 +1543,8 @@ video.video-responsive::before {
 }
 
 .columns {
-  display: flex;
   display: -ms-flexbox;
+  display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-left: -.4rem;
@@ -1975,8 +1981,8 @@ video.video-responsive::before {
 }
 
 .hero {
-  display: flex;
   display: -ms-flexbox;
+  display: flex;
   -ms-flex-direction: column;
   flex-direction: column;
   -ms-flex-pack: justify;
@@ -2001,8 +2007,8 @@ video.video-responsive::before {
 
 .navbar {
   align-items: stretch;
-  display: flex;
   display: -ms-flexbox;
+  display: flex;
   -ms-flex-align: stretch;
   -ms-flex-pack: justify;
   -ms-flex-wrap: wrap;
@@ -2012,8 +2018,8 @@ video.video-responsive::before {
 
 .navbar .navbar-section {
   align-items: center;
-  display: flex;
   display: -ms-flexbox;
+  display: flex;
   -ms-flex: 1 0 0;
   flex: 1 0 0; 
   -ms-flex-align: center;
@@ -2026,8 +2032,8 @@ video.video-responsive::before {
 
 .navbar .navbar-center {
   align-items: center;
-  display: flex;
   display: -ms-flexbox;
+  display: flex;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto; 
   -ms-flex-align: center;
@@ -2238,8 +2244,8 @@ summary.accordion-header::-webkit-details-marker {
 .bar {
   background: #eef0f3;
   border-radius: .1rem;
-  display: flex;
   display: -ms-flexbox;
+  display: flex;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   height: .8rem;
@@ -2314,8 +2320,8 @@ summary.accordion-header::-webkit-details-marker {
   background: #fff;
   border: .05rem solid #dadee4;
   border-radius: .1rem;
-  display: flex;
   display: -ms-flexbox;
+  display: flex;
   -ms-flex-direction: column;
   flex-direction: column;
 }
@@ -2360,8 +2366,8 @@ summary.accordion-header::-webkit-details-marker {
   align-items: center;
   background: #eef0f3;
   border-radius: 5rem;
-  display: inline-flex;
   display: -ms-inline-flexbox;
+  display: inline-flex;
   -ms-flex-align: center;
   font-size: 90%;
   height: 1.2rem;
@@ -2500,8 +2506,8 @@ summary.accordion-header::-webkit-details-marker {
 
 .menu .menu-badge {
   align-items: center;
-  display: flex;
   display: -ms-flexbox;
+  display: flex;
   -ms-flex-align: center;
   height: 100%;
   position: absolute;
@@ -2531,8 +2537,8 @@ summary.accordion-header::-webkit-details-marker {
 
 .modal:target,
 .modal.active {
-  display: flex;
   display: -ms-flexbox;
+  display: flex;
   opacity: 1;
   z-index: 400;
 }
@@ -2573,8 +2579,8 @@ summary.accordion-header::-webkit-details-marker {
   background: #fff;
   border-radius: .1rem;
   box-shadow: 0 .2rem .5rem rgba(48, 55, 66, .3);
-  display: flex;
   display: -ms-flexbox;
+  display: flex;
   -ms-flex-direction: column;
   flex-direction: column;
   max-height: 75vh;
@@ -2604,8 +2610,8 @@ summary.accordion-header::-webkit-details-marker {
 }
 
 .nav {
-  display: flex;
   display: -ms-flexbox;
+  display: flex;
   -ms-flex-direction: column;
   flex-direction: column;
   list-style: none;
@@ -2639,8 +2645,8 @@ summary.accordion-header::-webkit-details-marker {
 }
 
 .pagination {
-  display: flex;
   display: -ms-flexbox;
+  display: flex;
   list-style: none;
   margin: .2rem 0;
   padding: .2rem 0;
@@ -2700,8 +2706,8 @@ summary.accordion-header::-webkit-details-marker {
 .panel {
   border: .05rem solid #dadee4;
   border-radius: .1rem;
-  display: flex;
   display: -ms-flexbox;
+  display: flex;
   -ms-flex-direction: column;
   flex-direction: column;
 }
@@ -2785,8 +2791,8 @@ summary.accordion-header::-webkit-details-marker {
 }
 
 .step {
-  display: flex;
   display: -ms-flexbox;
+  display: flex;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   list-style: none;
@@ -2855,8 +2861,8 @@ summary.accordion-header::-webkit-details-marker {
 .tab {
   align-items: center;
   border-bottom: .05rem solid #dadee4;
-  display: flex;
   display: -ms-flexbox;
+  display: flex;
   -ms-flex-align: center;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -2922,8 +2928,8 @@ summary.accordion-header::-webkit-details-marker {
 .tile {
   align-content: space-between;
   align-items: flex-start;
-  display: flex; 
   display: -ms-flexbox;
+  display: flex; 
   -ms-flex-align: start;
   -ms-flex-line-pack: justify;
 }
@@ -3285,13 +3291,13 @@ a.text-error:visited {
 }
 
 .d-flex {
-  display: flex; 
   display: -ms-flexbox;
+  display: flex;
 }
 
 .d-inline-flex {
-  display: inline-flex; 
   display: -ms-inline-flexbox;
+  display: inline-flex;
 }
 
 .d-none,
@@ -3441,8 +3447,8 @@ a.text-error:visited {
 }
 
 .p-sticky {
-  position: sticky !important; 
   position: -webkit-sticky !important;
+  position: sticky !important;
 }
 
 .p-centered {
@@ -3454,8 +3460,8 @@ a.text-error:visited {
 
 .flex-centered {
   align-items: center;
-  display: flex;
   display: -ms-flexbox;
+  display: flex;
   -ms-flex-align: center;
   -ms-flex-pack: center;
   justify-content: center;
