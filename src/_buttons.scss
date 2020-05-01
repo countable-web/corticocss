@@ -1,7 +1,6 @@
 // Buttons
 a.btn {
-  display: flex;
-  align-items: center;
+  line-height: 2rem;
 }
 a.btn:hover {
   color: white;
@@ -10,6 +9,7 @@ a.btn:visited {
   color: white;
 }
 .btn {
+
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   height: 45px;
@@ -90,18 +90,42 @@ a.btn:visited {
     background-color: white;
     color: $button-success;
     border: 1px solid #EAE9F3;
+
+    &:hover {
+      border: 1px solid $button-success;
+    }
+
+    &:active {
+      border: 1px solid #EAE9F3;
+    }
   }
 
   &.btn-error {
     background-color: white;
     color: $button-error;
     border: 1px solid #EAE9F3;
+
+    &:hover {
+      border: 1px solid $button-error;
+    }
+
+    &:active {
+      border: 1px solid #EAE9F3;
+    }
   }
 
   &.btn-info {
     background-color: white;
     color: $button-info;
     border: 1px solid #EAE9F3;
+
+    &:hover {
+      border: 1px solid $button-info;
+    }
+
+    &:active {
+      border: 1px solid #EAE9F3;
+    }
 
   }
 
@@ -118,18 +142,6 @@ a.btn:visited {
     }
   }
 
-  // Button Sizes
-  &.btn-sm {
-    font-size: $font-size-sm;
-    height: $control-size-sm;
-    padding: $control-padding-y-sm $control-padding-x-sm;
-  }
-
-  &.btn-lg {
-    font-size: $font-size-lg;
-    height: $control-size-lg;
-    padding: $control-padding-y-lg $control-padding-x-lg;
-  }
 
   // Button Block
   &.btn-block {
@@ -139,7 +151,6 @@ a.btn:visited {
 
   // Button Action
   &.btn-action {
-    height: $control-size;
     width: $control-size;
     padding-left: 0;
     padding-right: 0;

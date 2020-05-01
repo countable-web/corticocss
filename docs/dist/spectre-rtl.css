@@ -560,10 +560,7 @@ html:lang(ko),
 }
 
 a.btn {
-  align-items: center; 
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
+  line-height: 2rem;
 }
 
 a.btn:hover {
@@ -666,16 +663,40 @@ a.btn:visited {
   color: #4b54f6;
 }
 
+.btn.btn-success:hover {
+  border: 1px solid #4b54f6;
+}
+
+.btn.btn-success:active {
+  border: 1px solid #eae9f3;
+}
+
 .btn.btn-error {
   background-color: white;
   border: 1px solid #eae9f3; 
   color: #f77354;
 }
 
+.btn.btn-error:hover {
+  border: 1px solid #f77354;
+}
+
+.btn.btn-error:active {
+  border: 1px solid #eae9f3;
+}
+
 .btn.btn-info {
   background-color: white;
   border: 1px solid #eae9f3; 
   color: #4a527d;
+}
+
+.btn.btn-info:hover {
+  border: 1px solid #4a527d;
+}
+
+.btn.btn-info:active {
+  border: 1px solid #eae9f3;
 }
 
 .btn.btn-link {
@@ -691,25 +712,12 @@ a.btn:visited {
   color: #2943ff;
 }
 
-.btn.btn-sm {
-  font-size: .7rem;
-  height: 1.4rem;
-  padding: .05rem .3rem;
-}
-
-.btn.btn-lg {
-  font-size: .9rem;
-  height: 2rem;
-  padding: .35rem .6rem;
-}
-
 .btn.btn-block {
   display: block;
   width: 100%;
 }
 
 .btn.btn-action {
-  height: 1.8rem;
   padding-left: 0;
   padding-right: 0; 
   width: 1.8rem;
