@@ -7,10 +7,11 @@ h4,
 h5,
 h6 {
   color: inherit;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.2;
   margin-bottom: .5em;
   margin-top: 0;
+  font-family: $heading-font-family;
 }
 .h1,
 .h2,
@@ -18,37 +19,38 @@ h6 {
 .h4,
 .h5,
 .h6 {
-  font-weight: 500;
+  font-weight: 600;
+  font-family: $heading-font-family;
 }
 h1,
 .h1 {
-  font-size: calc(34px + (96 - 34) * ((100vw - 300px) / (1600 - 300)));
-  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+  font-size: calc(34px + (96 - 34) * ((100vw - 300px) / (3840 - 320)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(3840 - 320)));
 }
 h2,
 .h2 {
-  font-size: calc(28px + (60 - 28) * ((100vw - 300px) / (1600 - 300)));
-  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+  font-size: calc(28px + (60 - 28) * ((100vw - 300px) / (3840 - 320)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(3840 - 320)));
 }
 h3,
 .h3 {
-  font-size: calc(24px + (48 - 24) * ((100vw - 300px) / (1600 - 300)));
-  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+  font-size: calc(24px + (48 - 24) * ((100vw - 300px) / (3840 - 320)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(3840 - 320)));
 }
 h4,
 .h4 {
-  font-size: calc(21px + (34 - 21) * ((100vw - 300px) / (1600 - 300)));
-  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+  font-size: calc(21px + (34 - 21) * ((100vw - 300px) / (3840 - 320)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(3840 - 320)));
 }
 h5,
 .h5 {
-  font-size: calc(18px + (24 - 18) * ((100vw - 300px) / (1600 - 300)));
-  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+  font-size: calc(18px + (24 - 18) * ((100vw - 300px) / (3840 - 320)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(3840 - 320)));
 }
 h6,
 .h6 {
-  font-size: calc(16px + (20 - 16) * ((100vw - 300px) / (1600 - 300)));
-  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+  font-size: calc(16px + (20 - 16) * ((100vw - 300px) / (1920 - 320)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1920 - 320)));
 }
 
 // Paragraphs

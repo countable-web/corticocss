@@ -1,17 +1,29 @@
 // Buttons
+a.btn {
+  display: flex;
+  align-items: center;
+}
+a.btn:hover {
+  color: white;
+}
+a.btn:visited {
+  color: white;
+}
 .btn {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  height: 45px;
   appearance: none;
-  background: $bg-color-light;
-  border: $border-width solid $primary-color;
+  background: $button-standard;
+  border: $border-width solid $button-standard-hover;
   border-radius: $border-radius;
-  color: $primary-color;
+  color: white;
   cursor: pointer;
   display: inline-block;
   font-size: $font-size;
-  height: $control-size;
   line-height: $line-height;
   outline: none;
-  padding: $control-padding-y $control-padding-x;
+  padding: 0 1rem;
   text-align: center;
   text-decoration: none;
   transition: background .2s, border .2s, box-shadow .2s, color .2s;
@@ -23,14 +35,14 @@
   }
   &:focus,
   &:hover {
-    background: $secondary-color;
-    border-color: $primary-color-dark;
+    background: $button-standard-hover;
+    border-color: $button-standard-hover;
     text-decoration: none;
   }
   &:active,
   &.active {
-    background: $primary-color-dark;
-    border-color: darken($primary-color-dark, 5%);
+    background: $button-standard;
+    border-color: darken($button-standard-hover, 5%);
     color: $light-color;
     text-decoration: none;
     &.loading {
@@ -50,18 +62,18 @@
 
   // Button Primary
   &.btn-primary {
-    background: blue;
-    border-color: $primary-color-dark;
+    background: $button-primary;
+    border-color: $button-primary;
     color: $light-color;
     &:focus,
     &:hover {
-      background: darken($primary-color-dark, 2%);
+      background: $button-primary-hover;
       border-color: darken($primary-color-dark, 5%);
       color: $light-color;
     }
     &:active,
     &.active {
-      background: darken($primary-color-dark, 4%);
+      background: $button-primary;
       border-color: darken($primary-color-dark, 7%);
       color: $light-color;
     }
@@ -75,11 +87,22 @@
 
   // Button Colors
   &.btn-success {
-    @include button-variant($success-color);
+    background-color: white;
+    color: $button-success;
+    border: 1px solid #EAE9F3;
   }
 
   &.btn-error {
-    @include button-variant($error-color);
+    background-color: white;
+    color: $button-error;
+    border: 1px solid #EAE9F3;
+  }
+
+  &.btn-info {
+    background-color: white;
+    color: $button-info;
+    border: 1px solid #EAE9F3;
+
   }
 
   // Button Link
@@ -116,6 +139,7 @@
 
   // Button Action
   &.btn-action {
+    height: $control-size;
     width: $control-size;
     padding-left: 0;
     padding-right: 0;

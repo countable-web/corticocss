@@ -16,8 +16,8 @@
 }
 
 .form-autocomplete .form-autocomplete-input.is-focused {
-  border-color: #5755d9; 
-  box-shadow: 0 0 0 .1rem rgba(87, 85, 217, .2);
+  border-color: #5c70ff; 
+  box-shadow: 0 0 0 .1rem rgba(92, 112, 255, .2);
 }
 
 .form-autocomplete .form-autocomplete-input .form-input {
@@ -52,7 +52,7 @@
 
 .calendar {
   border: .05rem solid #dadee4;
-  border-radius: .1rem;
+  border-radius: .2rem;
   display: block;
   min-width: 280px;
 }
@@ -60,8 +60,8 @@
 .calendar .calendar-nav {
   align-items: center;
   background: #f7f8f9;
-  border-top-left-radius: .1rem;
-  border-top-right-radius: .1rem;
+  border-top-left-radius: .2rem;
+  border-top-right-radius: .2rem;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
@@ -128,26 +128,26 @@
 }
 
 .calendar .calendar-date .date-item.date-today {
-  border-color: #e5e5f9;
-  color: #5755d9;
+  border-color: #f7f7f7;
+  color: #5c70ff;
 }
 
 .calendar .calendar-date .date-item:focus {
-  box-shadow: 0 0 0 .1rem rgba(87, 85, 217, .2);
+  box-shadow: 0 0 0 .1rem rgba(92, 112, 255, .2);
 }
 
 .calendar .calendar-date .date-item:focus,
 .calendar .calendar-date .date-item:hover {
-  background: #fefeff;
-  border-color: #e5e5f9;
-  color: #5755d9;
+  background: white;
+  border-color: #f7f7f7;
+  color: #5c70ff;
   text-decoration: none;
 }
 
 .calendar .calendar-date .date-item:active,
 .calendar .calendar-date .date-item.active {
-  background: #4b48d6;
-  border-color: #3634d2;
+  background: #4d63ff;
+  border-color: #334cff;
   color: #fff;
 }
 
@@ -179,7 +179,7 @@
 }
 
 .calendar .calendar-range::before {
-  background: #f1f1fc;
+  background: white;
   content: "";
   height: 1.4rem;
   left: 0;
@@ -199,13 +199,13 @@
 
 .calendar .calendar-range.range-start .date-item,
 .calendar .calendar-range.range-end .date-item {
-  background: #4b48d6;
-  border-color: #3634d2;
+  background: #4d63ff;
+  border-color: #334cff;
   color: #fff;
 }
 
 .calendar .calendar-range .date-item {
-  color: #5755d9;
+  color: #5c70ff;
 }
 
 .calendar.calendar-lg .calendar-body {
@@ -261,7 +261,7 @@
 }
 
 .calendar.calendar-lg .calendar-event {
-  border-radius: .1rem;
+  border-radius: .2rem;
   display: block;
   font-size: .7rem;
   margin: .1rem auto;
@@ -535,7 +535,7 @@
 .filter .filter-tag#tag-6:checked ~ .filter-nav .chip[for="tag-6"],
 .filter .filter-tag#tag-7:checked ~ .filter-nav .chip[for="tag-7"],
 .filter .filter-tag#tag-8:checked ~ .filter-nav .chip[for="tag-8"] {
-  background: #5755d9;
+  background: #5c70ff;
   color: #fff;
 }
 
@@ -567,7 +567,7 @@
   appearance: none;
   background: #f7f8f9;
   border: 0;
-  border-radius: .1rem;
+  border-radius: .2rem;
   display: block;
   height: .8rem; 
   width: 100%;
@@ -581,7 +581,7 @@
 .meter::-webkit-meter-optimum-value,
 .meter::-webkit-meter-suboptimum-value,
 .meter::-webkit-meter-even-less-good-value {
-  border-radius: .1rem;
+  border-radius: .2rem;
 }
 
 .meter::-webkit-meter-bar {
@@ -604,7 +604,7 @@
 .meter:-moz-meter-optimum,
 .meter:-moz-meter-sub-optimum,
 .meter:-moz-meter-sub-sub-optimum {
-  border-radius: .1rem;
+  border-radius: .2rem;
 }
 
 .meter:-moz-meter-optimum::-moz-meter-bar {
@@ -850,8 +850,8 @@
   appearance: none;
   background: #eef0f3;
   border: 0;
-  border-radius: .1rem;
-  color: #5755d9;
+  border-radius: .2rem;
+  color: #5c70ff;
   height: .2rem;
   position: relative;
   width: 100%;
@@ -859,22 +859,22 @@
 
 .progress::-webkit-progress-bar {
   background: transparent;
-  border-radius: .1rem;
+  border-radius: .2rem;
 }
 
 .progress::-webkit-progress-value {
-  background: #5755d9;
-  border-radius: .1rem;
+  background: #5c70ff;
+  border-radius: .2rem;
 }
 
 .progress::-moz-progress-bar {
-  background: #5755d9;
-  border-radius: .1rem;
+  background: #5c70ff;
+  border-radius: .2rem;
 }
 
 .progress:indeterminate {
   animation: progress-indeterminate 1.5s linear infinite;
-  background: #eef0f3 linear-gradient(to right, #5755d9 30%, #eef0f3 30%) top left/150% 150% no-repeat;
+  background: #eef0f3 linear-gradient(to right, #5c70ff 30%, #eef0f3 30%) top left/150% 150% no-repeat;
 }
 
 .progress:indeterminate::-moz-progress-bar {
@@ -901,7 +901,7 @@
 }
 
 .slider:focus {
-  box-shadow: 0 0 0 .1rem rgba(87, 85, 217, .2);
+  box-shadow: 0 0 0 .1rem rgba(92, 112, 255, .2);
   outline: none;
 }
 
@@ -911,7 +911,7 @@
 
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none;
-  background: #5755d9;
+  background: #5c70ff;
   border: 0;
   border-radius: 50%;
   height: .6rem;
@@ -922,7 +922,7 @@
 }
 
 .slider::-moz-range-thumb {
-  background: #5755d9;
+  background: #5c70ff;
   border: 0;
   border-radius: 50%;
   height: .6rem;
@@ -932,7 +932,7 @@
 }
 
 .slider::-ms-thumb {
-  background: #5755d9;
+  background: #5c70ff;
   border: 0;
   border-radius: 50%;
   height: .6rem;
@@ -973,27 +973,27 @@
 
 .slider::-webkit-slider-runnable-track {
   background: #eef0f3;
-  border-radius: .1rem;
+  border-radius: .2rem;
   height: .1rem;
   width: 100%;
 }
 
 .slider::-moz-range-track {
   background: #eef0f3;
-  border-radius: .1rem;
+  border-radius: .2rem;
   height: .1rem;
   width: 100%;
 }
 
 .slider::-ms-track {
   background: #eef0f3;
-  border-radius: .1rem;
+  border-radius: .2rem;
   height: .1rem;
   width: 100%;
 }
 
 .slider::-ms-fill-lower {
-  background: #5755d9;
+  background: #5c70ff;
 }
 
 .timeline .timeline-item {
@@ -1039,7 +1039,7 @@
 }
 
 .timeline .timeline-item .timeline-icon::before {
-  border: .1rem solid #5755d9;
+  border: .1rem solid #5c70ff;
   border-radius: 50%;
   content: "";
   display: block;
@@ -1051,7 +1051,7 @@
 }
 
 .timeline .timeline-item .timeline-icon.icon-lg {
-  background: #5755d9;
+  background: #5c70ff;
   line-height: 1.2rem;
 }
 

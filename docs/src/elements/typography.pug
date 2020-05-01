@@ -8,8 +8,6 @@ block variables
 
 block docs-content
   +docs-heading('typography', 'Typography')
-    include ../_layout/_ad-g.pug
-
     p
       | Typography sets default styles for headings, paragraphs, semantic text, blockquote and lists elements.
 
@@ -19,27 +17,21 @@ block docs-content
       .column.col-12
         h1
           | H1 Heading 
-          small.label 40px
       .column.col-12
         h2
           | H2 Heading 
-          small.label 32px
       .column.col-12
         h3
           | H3 Heading 
-          small.label 28px
       .column.col-12
         h4
           | H4 Heading 
-          small.label 24px
       .column.col-12
         h5
           | H5 Heading 
-          small.label 20px
       .column.col-12
         h6
           | H6 Heading 
-          small.label 16px
 
     //- headings
     pre.code(data-lang='HTML')
@@ -188,7 +180,7 @@ block docs-content
       code
         :highlight(lang="scss")
           /* Western typography targeted */
-          font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+          font-family: "Montserrat", sans-serif;
           /* Monospace typography targeted */
           font-family: "SF Mono", "Segoe UI Mono", "Roboto Mono", Menlo, Courier, monospace;
 

@@ -14,6 +14,7 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@spectrecss">
     <meta name="twitter:creator" content="@picturepan2">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;family=Rubik:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="../img/favicons/favicon.ico">
     <link rel="icon" href="../img/favicons/favicon.png">
     <link rel="stylesheet" href="../dist/spectre.min.css">
@@ -200,73 +201,71 @@
         <div class="docs-content" id="content">
           <div class="container" id="buttons">
             <h3 class="s-title">Buttons<a class="anchor" href="#buttons" aria-hidden="true">#</a></h3>
-            <div class="docs-ad">
-              <div class="hide-md text-center">
-                <script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                <!-- GitHub-lg--><ins class="adsbygoogle mx-auto" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-2225124559530218" data-ad-slot="9894180784"></ins>
-                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-              </div>
-              <div class="show-md text-center">
-                <!-- GitHub-sm--><ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-2225124559530218" data-ad-slot="9278881734"></ins>
-                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-              </div>
-            </div>
             <p>Buttons include simple button styles for actions in different types and sizes.</p>
             <div class="docs-demo columns">
               <div class="column col-12">
-                <button class="btn">default button</button>
-                <button class="btn btn-primary">primary button</button>
-                <button class="btn btn-link">link button</button>
+                <button class="btn">Standard</button>
+                <button class="btn btn-primary">Primary</button>
               </div>
             </div>
             <p>Add the <code>btn</code> class to &lt;a&gt;, &lt;input&gt; or &lt;button&gt; elements for a default button. 
-              There are classes <code>btn-primary</code> and <code>btn-link</code> for predefined primary and link buttons.
+              There are classes <code>btn-primary</code>.
             </p>
-            <pre class="code" data-lang="HTML"><code><span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn"</span>&gt;</span>default button<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-primary"</span>&gt;</span>primary button<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-link"</span>&gt;</span>link button<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+            <pre class="code" data-lang="HTML"><code><span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn"</span>&gt;</span>Standard<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-primary"</span>&gt;</span>Primary<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
 </code></pre>
-            <h4 class="s-subtitle" id="buttons-colors">Button colors<a class="anchor" href="#buttons-colors" aria-hidden="true">#</a></h4>
+            <h4 class="s-subtitle" id="secondary-buttons">Secondary Buttons<a class="anchor" href="#secondary-buttons" aria-hidden="true">#</a></h4>
             <div class="docs-demo columns">
               <div class="column col-12">
-                <button class="btn btn-success">success button</button>
-                <button class="btn btn-error">error button</button>
+                <button class="btn btn-success">Subtle</button>
+                <button class="btn btn-info">Subtle</button>
+                <button class="btn btn-error">Cancel</button>
               </div>
             </div>
-            <p>Add the <code>btn-success</code> or <code>btn-error</code> class for success (green) or error (red) button color.
-              If you need more button colors, please use <a href="../getting-started/custom.html#variables-buttons">button mixins</a> to create your own button color variants.
-            </p>
-            <pre class="code" data-lang="HTML"><code><span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-success"</span>&gt;</span>success button<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-error"</span>&gt;</span>error button<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+            <pre class="code" data-lang="HTML"><code><span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-success"</span>&gt;</span>Subtle<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-info"</span>&gt;</span>Subtle<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-error"</span>&gt;</span>Cancel<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
 </code></pre>
-            <h4 class="s-subtitle" id="buttons-sizes">Button sizes<a class="anchor" href="#buttons-sizes" aria-hidden="true">#</a></h4>
-            <div class="docs-demo columns">
-              <div class="column col-12">
-                <button class="btn btn-primary btn-lg">large <i class="icon icon-arrow-down"></i></button>
-                <button class="btn btn-primary btn-lg">large button</button>
-              </div>
-              <div class="column col-12">
-                <button class="btn btn-primary">normal <i class="icon icon-arrow-down"></i></button>
-                <button class="btn btn-primary">normal button</button>
-              </div>
-              <div class="column col-12">
-                <button class="btn btn-primary btn-sm">small <i class="icon icon-arrow-down"></i></button>
-                <button class="btn btn-primary btn-sm">small button</button>
-              </div>
-            </div>
-            <p>Add the <code>btn-sm</code> or <code>btn-lg</code> class for small or large button size. 
-              Also, you can add the <code>btn-block</code> class for a full-width button.
-            </p>
-            <pre class="code" data-lang="HTML"><code><span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-lg"</span>&gt;</span>large button<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-sm"</span>&gt;</span>small button<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
-
-<span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-block"</span>&gt;</span>block button<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
-
-<span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-primary btn-lg"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"icon icon-arrow-left"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span> large<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-primary"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"icon icon-arrow-left"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span> normal<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-primary btn-sm"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"icon icon-arrow-left"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span> small<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
-</code></pre>
-            <p>Please note that you could use the <code>btn-action</code> class for a square button, or add another <code>s-circle</code> class for a round button, which is often used as a Float Action Button (FAB).</p>
+            <!--+docs-subheading('buttons-sizes', 'Button sizes')-->
+            <!--.docs-demo.columns
+            .column.col-12
+              button.btn.btn-primary.btn-lg
+                | large 
+                i.icon.icon-arrow-down
+              button.btn.btn-primary.btn-lg large button
+            .column.col-12
+              button.btn.btn-primary
+                | normal 
+                i.icon.icon-arrow-down
+              button.btn.btn-primary normal button
+            .column.col-12
+              button.btn.btn-primary.btn-sm
+                | small 
+                i.icon.icon-arrow-down
+              button.btn.btn-primary.btn-sm small button
+            
+            
+            -->
+            <!--p| Add the <code>btn-sm</code> or <code>btn-lg</code> class for small or large button size. 
+            | Also, you can add the <code>btn-block</code> class for a full-width button.
+            
+            -->
+            <!--pre.code(data-lang='HTML')
+            code
+              :highlight(lang="html")
+                <button class="btn btn-lg">large button</button>
+                <button class="btn btn-sm">small button</button>
+            
+                <button class="btn btn-block">block button</button>
+            
+                <button class="btn btn-primary btn-lg"><i class="icon icon-arrow-left"></i> large</button>
+                <button class="btn btn-primary"><i class="icon icon-arrow-left"></i> normal</button>
+                <button class="btn btn-primary btn-sm"><i class="icon icon-arrow-left"></i> small</button>
+            
+            -->
+            <!--p| Please note that you could use the <code>btn-action</code> class for a square button, or add another <code>s-circle</code> class for a round button, which is often used as a Float Action Button (FAB).
+            
+            -->
             <div class="docs-demo columns">
               <div class="column col-xs-12">
                 <button class="btn btn-action btn-primary btn-lg"><i class="icon icon-menu"></i></button>
@@ -315,50 +314,45 @@
 <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn loading"</span>&gt;</span>button<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-primary loading"</span>&gt;</span>primary button<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
 </code></pre>
-            <h4 class="s-subtitle" id="buttons-groups">Button groups<a class="anchor" href="#buttons-groups" aria-hidden="true">#</a></h4>
-            <div class="docs-demo columns">
-              <div class="column col-6 col-md-12">
-                <div class="btn-group">
-                  <button class="btn">first button</button>
-                  <button class="btn">second button</button>
-                  <button class="btn">third button</button>
-                </div>
-              </div>
-              <div class="column col-6 col-md-12">
-                <div class="btn-group btn-group-block">
-                  <button class="btn btn-primary">first button</button>
-                  <button class="btn btn-primary">second button</button>
-                  <button class="btn btn-primary">third button</button>
-                </div>
-              </div>
-              <div class="column col-6 col-md-12">
-                <div class="btn-group">
-                  <button class="btn btn-sm active">first button</button>
-                  <button class="btn btn-sm">second button</button>
-                  <button class="btn btn-sm">third button</button>
-                </div>
-              </div>
-              <div class="column col-6 col-md-12">
-                <div class="btn-group btn-group-block">
-                  <button class="btn btn-primary btn-sm active">first button</button>
-                  <button class="btn btn-primary btn-sm">second button</button>
-                  <button class="btn btn-primary btn-sm">third button</button>
-                </div>
-              </div>
-            </div>
-            <p>If you want to use buttons as a group, add the <code>btn-group</code> class to the container.
-              You can add the <code>btn-group-block</code> class for a full-width button group.
-            </p>
+            <!--+docs-subheading('buttons-groups', 'Button groups')-->
+            <!--.docs-demo.columns
+            .column.col-6.col-md-12
+              .btn-group
+                button.btn first button
+                button.btn second button
+                button.btn third button
+            .column.col-6.col-md-12
+              .btn-group.btn-group-block
+                button.btn.btn-primary first button
+                button.btn.btn-primary second button
+                button.btn.btn-primary third button
+            .column.col-6.col-md-12
+              .btn-group
+                button.btn.btn-sm.active first button
+                button.btn.btn-sm second button
+                button.btn.btn-sm third button
+            .column.col-6.col-md-12
+              .btn-group.btn-group-block
+                button.btn.btn-primary.btn-sm.active first button
+                button.btn.btn-primary.btn-sm second button
+                button.btn.btn-primary.btn-sm third button
+              
+            -->
+            <!--p| If you want to use buttons as a group, add the <code>btn-group</code> class to the container.
+            | You can add the <code>btn-group-block</code> class for a full-width button group.
+            
+            -->
             <pre class="code" data-lang="HTML"><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn-group btn-group-block"</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn"</span>&gt;</span>first button<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn"</span>&gt;</span>second button<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn"</span>&gt;</span>third button<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span> 
+
+
 </code></pre>
           </div>
           <div class="docs-footer container grid-lg" id="copyright">
-            <p><a href="https://github.com/picturepan2/spectre" target="_blank">GitHub</a> · <a href="https://twitter.com/spectrecss" target="_blank">Twitter</a> · <a href="https://www.paypal.me/picturepan2" target="_blank">PayPal Donate</a> · <a href="https://www.patreon.com/spectrecss" target="_blank">Patreon Sponsor</a> · Version <span class="version"></span></p>
-            <p>Designed and built with <span class="text-error">&hearts;</span> by <a href="https://twitter.com/picturepan2" target="_blank">Yan Zhu</a>. Licensed under the <a href="https://github.com/picturepan2/spectre/blob/master/LICENSE" target="_blank">MIT License</a>.</p>
+            <p>Designed and built with <span class="text-error">&hearts;</span> by <a href="https://twitter.com/picturepan2" target="_blank">Yan Zhu. </a>Forked and modified by <a href="https://github.com/byshine" target="_blank">Aaron Ahn</a> for <a href="https://cortico.ca">Cortico</a>. Licensed under the <a href="https://github.com/picturepan2/spectre/blob/master/LICENSE" target="_blank">MIT License</a>.</p>
           </div>
         </div>
       </div>
