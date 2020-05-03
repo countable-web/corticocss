@@ -684,9 +684,16 @@ a.btn:visited {
 .btn[disabled],
 .btn:disabled,
 .btn.disabled {
-  cursor: default;
-  opacity: .5;
-  pointer-events: none;
+  background-color: #f5f5f9 !important;
+  border: 0 !important; 
+  color: #b0b3c9 !important;
+  cursor: default !important;
+  pointer-events: none !important;
+}
+
+.btn.btn-compact {
+  font-size: 14px; 
+  height: 32px;
 }
 
 .btn.btn-primary {

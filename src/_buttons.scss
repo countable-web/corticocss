@@ -55,9 +55,16 @@ a.btn:visited {
   &[disabled],
   &:disabled,
   &.disabled {
-    cursor: default;
-    opacity: .5;
-    pointer-events: none;
+    background-color: #F5F5F9 !important;
+    cursor: default !important;
+    pointer-events: none !important;
+    color: #B0B3C9 !important;
+    border: 0 !important;
+  }
+
+  &.btn-compact {
+    height: 32px;
+    font-size: 14px;
   }
 
   // Button Primary
