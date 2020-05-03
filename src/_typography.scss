@@ -135,3 +135,52 @@ dl {
     margin: $unit-2 0 $unit-4 0;
   }
 }
+
+body-1 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.body-2 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.subtitle-1 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.subtitle-2 {
+  font-size: 14px;
+  font-weight: 500;
+}
+.body-l {
+  font-size: 20px;
+  font-weight: 400;
+}
+.subtitle-l {
+  font-size: 20px;
+  font-weight: 500;
+}
+.body-xl {
+  font-size: 26px;
+  font-weight: 400;
+}
+.subtitle-xl {
+  font-size: 26px;
+  font-weight: 500;
+}
+.typo-button {
+  font-size: 14px;
+  font-weight: 600;
+}
+.caption {
+  font-size: 12px;
+  font-weight: 400;
+}
+.overline {
+  font-size: 12px;
+  font-weight: 500px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
