@@ -286,6 +286,10 @@ html {
   -webkit-tap-highlight-color: transparent;
 }
 
+input {
+  color: #131d55;
+}
+
 body {
   background: #fff;
   color: #131d55;
@@ -642,6 +646,7 @@ a.btn:visited {
   font-size: .8rem;
   font-weight: 600;
   height: 45px;
+  height: 2.25rem;
   line-height: 1.2rem;
   outline: none;
   padding: 0 1rem;
@@ -784,7 +789,7 @@ a.btn:visited {
 .btn.btn-action {
   padding-left: 0;
   padding-right: 0; 
-  width: 1.8rem;
+  width: 2.25rem;
 }
 
 .btn.btn-action.btn-sm {
@@ -792,7 +797,7 @@ a.btn:visited {
 }
 
 .btn.btn-action.btn-lg {
-  width: 2rem;
+  width: 2.25rem;
 }
 
 .btn.btn-clear {
@@ -881,7 +886,7 @@ legend {
 .form-label {
   display: block;
   line-height: 1.2rem;
-  padding: .4rem 0;
+  padding: .7rem 0;
 }
 
 .form-label.label-sm {
@@ -891,25 +896,25 @@ legend {
 
 .form-label.label-lg {
   font-size: .9rem;
-  padding: .4rem 0;
+  padding: .525rem 0;
 }
 
 .form-input {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: #fff;
+  background: #fafafd;
   background-image: none;
   border: .05rem solid #bcc3ce;
   border-radius: .2rem;
   color: #131d55;
   display: block;
   font-size: .8rem;
-  height: 1.8rem;
+  height: 2.25rem;
   line-height: 1.2rem;
   max-width: 100%;
   outline: none;
-  padding: .35rem .4rem;
+  padding: .65rem .4rem;
   position: relative;
   transition: background .2s, border .2s, box-shadow .2s, color .2s;
   width: 100%;
@@ -921,27 +926,27 @@ legend {
 }
 
 .form-input:-ms-input-placeholder {
-  color: #bcc3ce;
+  color: #585f87;
 }
 
 .form-input::-ms-input-placeholder {
-  color: #bcc3ce;
+  color: #585f87;
 }
 
 .form-input::placeholder {
-  color: #bcc3ce;
+  color: #585f87;
 }
 
 .form-input.input-sm {
   font-size: .7rem;
-  height: 1.4rem;
+  height: 2.25rem;
   padding: .05rem .3rem;
 }
 
 .form-input.input-lg {
   font-size: .9rem;
-  height: 2rem;
-  padding: .35rem .6rem;
+  height: 2.25rem;
+  padding: .475rem .6rem;
 }
 
 .form-input.input-inline {
@@ -985,10 +990,10 @@ textarea.form-input.input-sm {
   border-radius: .2rem;
   color: inherit;
   font-size: .8rem;
-  height: 1.8rem;
+  height: 2.25rem;
   line-height: 1.2rem;
   outline: none;
-  padding: .35rem .4rem;
+  padding: 0 .4rem;
   vertical-align: middle;
   width: 100%;
 }
@@ -1004,20 +1009,20 @@ textarea.form-input.input-sm {
 
 .form-select.select-sm {
   font-size: .7rem;
-  height: 1.4rem;
+  height: 2.25rem;
   padding: .05rem 1.1rem .05rem .3rem;
 }
 
 .form-select.select-lg {
   font-size: .9rem;
-  height: 2rem;
-  padding: .35rem 1.4rem .35rem .6rem;
+  height: 2.25rem;
+  padding: .475rem 1.4rem .475rem .6rem;
 }
 
 .form-select[size],
 .form-select[multiple] {
   height: auto;
-  padding: .35rem .4rem;
+  padding: .65rem .4rem;
 }
 
 .form-select[size] option,
@@ -1038,7 +1043,7 @@ textarea.form-input.input-sm {
 .has-icon-left .form-icon,
 .has-icon-right .form-icon {
   height: .8rem;
-  margin: 0 .35rem;
+  margin: 0 .65rem;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -1051,7 +1056,7 @@ textarea.form-input.input-sm {
 }
 
 .has-icon-left .form-input {
-  padding-left: 1.5rem;
+  padding-left: 2.1rem;
 }
 
 .has-icon-right .form-icon {
@@ -1059,7 +1064,7 @@ textarea.form-input.input-sm {
 }
 
 .has-icon-right .form-input {
-  padding-right: 1.5rem;
+  padding-right: 2.1rem;
 }
 
 .form-checkbox,
@@ -1067,7 +1072,7 @@ textarea.form-input.input-sm {
 .form-switch {
   display: block;
   line-height: 1.2rem;
-  margin: .2rem 0;
+  margin: .425rem 0;
   min-height: 1.4rem;
   padding: .1rem .4rem .1rem 1.2rem;
   position: relative;
@@ -1119,7 +1124,7 @@ textarea.form-input.input-sm {
 .form-radio.input-lg,
 .form-switch.input-lg {
   font-size: .9rem;
-  margin: .3rem 0;
+  margin: .425rem 0;
 }
 
 .form-checkbox .form-icon,
@@ -1233,8 +1238,9 @@ textarea.form-input.input-sm {
   background: #f7f8f9;
   border: .05rem solid #bcc3ce;
   border-radius: .2rem;
+  height: 2.25rem; 
   line-height: 1.2rem;
-  padding: .35rem .4rem;
+  padding: .65rem .4rem;
   white-space: nowrap;
 }
 
@@ -1245,7 +1251,7 @@ textarea.form-input.input-sm {
 
 .input-group .input-group-addon.addon-lg {
   font-size: .9rem;
-  padding: .35rem .6rem;
+  padding: .475rem .6rem;
 }
 
 .input-group .form-input,

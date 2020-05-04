@@ -450,9 +450,9 @@ block docs-content
             .col-9
               input#input-example-16.form-input(type="file")
 
-    +docs-subheading('forms-input-groups', 'Input groups')
+    //+docs-subheading('forms-input-groups', 'Input groups')
 
-    .docs-demo.columns
+    //.docs-demo.columns
       .column.col-6.col-xs-12
         .input-group
           input.form-input.input-sm(type="text" placeholder="username")
@@ -502,31 +502,11 @@ block docs-content
           input.form-input.input-lg(type="text" placeholder="site name")
           button.btn.btn-primary.input-group-btn.btn-lg Submit
 
-    p
+    //p
       | If you want to attach text and button along with an input, add the #[code input-group] class to the input container.
       | And add the #[code input-group-addon] class to the text element and #[code input-group-btn] to the button element.
 
-    pre.code(data-lang='HTML')
-      code
-        :highlight(lang="html")
-          <!-- normal input group -->
-          <div class="input-group">
-            <span class="input-group-addon">...</span>
-            <input type="text" class="form-input" placeholder="...">
-          </div>
 
-          <!-- large input group -->
-          <div class="input-group">
-            <span class="input-group-addon addon-lg">...</span>
-            <input type="text" class="form-input input-lg" placeholder="...">
-          </div>
-
-          <!-- normal input group with button -->
-          <div class="input-group">
-            <span class="input-group-addon">...</span>
-            <input type="text" class="form-input" placeholder="...">
-            <button class="btn btn-primary input-group-btn">Submit</button>
-          </div>
 
     +docs-subheading('forms-validation', 'Form validation styles')
 

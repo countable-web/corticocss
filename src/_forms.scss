@@ -35,7 +35,7 @@ legend {
 // Form element: Input
 .form-input {
   appearance: none;
-  background: $bg-color-light;
+  background: #FAFAFD;
   background-image: none;
   border: $border-width solid $border-color-dark;
   border-radius: $border-radius;
@@ -55,19 +55,19 @@ legend {
     border-color: $primary-color;
   }
   &::placeholder {
-    color: $gray-color;
+    color: #585F87;
   }
 
   // Input sizes
   &.input-sm {
     font-size: $font-size-sm;
-    height: $control-size-sm;
+    height: $control-size;
     padding: $control-padding-y-sm $control-padding-x-sm;
   }
 
   &.input-lg {
     font-size: $font-size-lg;
-    height: $control-size-lg;
+    height: $control-size;
     padding: $control-padding-y-lg $control-padding-x-lg;
   }
 
@@ -119,7 +119,7 @@ textarea.form-input {
   height: $control-size;
   line-height: $line-height;
   outline: none;
-  padding: $control-padding-y $control-padding-x;
+  padding: 0 $control-padding-x;
   vertical-align: middle;
   width: 100%;
   background: $bg-color-light; 
@@ -134,13 +134,13 @@ textarea.form-input {
   // Select sizes
   &.select-sm {
     font-size: $font-size-sm;
-    height: $control-size-sm;
+    height: $control-size;
     padding: $control-padding-y-sm ($control-icon-size + $control-padding-x-sm) $control-padding-y-sm $control-padding-x-sm;
   }
 
   &.select-lg {
     font-size: $font-size-lg;
-    height: $control-size-lg;
+    height: $control-size;
     padding: $control-padding-y-lg ($control-icon-size + $control-padding-x-lg) $control-padding-y-lg $control-padding-x-lg;
   }
 
@@ -373,6 +373,7 @@ textarea.form-input {
     line-height: $line-height;
     padding: $control-padding-y $control-padding-x;
     white-space: nowrap;
+    height: $control-size;
 
     &.addon-sm {
       font-size: $font-size-sm;

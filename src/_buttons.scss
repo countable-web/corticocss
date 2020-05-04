@@ -12,14 +12,14 @@ a.btn:visited {
 
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  height: 45px;
-  appearance: none;
+  height: 45px;  appearance: none;
   background: $button-standard;
   border: $border-width solid $button-standard-hover;
   border-radius: $border-radius;
   color: white;
   cursor: pointer;
   display: inline-block;
+  height: $control-size;
   font-size: $font-size;
   line-height: $line-height;
   outline: none;

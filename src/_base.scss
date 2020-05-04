@@ -12,6 +12,10 @@ html {
   -webkit-tap-highlight-color: transparent;
 }
 
+input {
+  color: $body-font-color;
+}
+
 body {
   background: $body-bg;
   color: $body-font-color;

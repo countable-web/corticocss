@@ -673,95 +673,64 @@
                 </form>
               </div>
             </div>
-            <h4 class="s-subtitle" id="forms-input-groups">Input groups<a class="anchor" href="#forms-input-groups" aria-hidden="true">#</a></h4>
-            <div class="docs-demo columns">
-              <div class="column col-6 col-xs-12">
-                <div class="input-group">
-                  <input class="form-input input-sm" type="text" placeholder="username">
-                  <select class="form-select select-sm">
-                    <option>Slack</option>
-                    <option>Skype</option>
-                    <option>Hipchat</option>
-                  </select>
-                </div>
-              </div>
-              <div class="column col-6 col-xs-12">
-                <div class="input-group"><span class="input-group-addon addon-sm">slack.com/</span>
-                  <input class="form-input input-sm" type="text" placeholder="site name">
-                  <button class="btn btn-primary input-group-btn btn-sm">Submit</button>
-                </div>
-              </div>
-              <div class="column col-6 col-xs-12">
-                <div class="input-group">
-                  <input class="form-input" type="text" placeholder="username">
-                  <select class="form-select">
-                    <option>Slack</option>
-                    <option>Skype</option>
-                    <option>Hipchat</option>
-                  </select>
-                </div>
-              </div>
-              <div class="column col-6 col-xs-12">
-                <div class="input-group"><span class="input-group-addon">slack.com/</span>
-                  <input class="form-input" type="text" placeholder="site name">
-                  <button class="btn btn-primary input-group-btn">Submit</button>
-                </div>
-              </div>
-              <div class="column col-6 col-xs-12">
-                <div class="input-group">
-                  <label class="form-switch">
-                    <input type="checkbox"><i class="form-icon"></i>
-                  </label>
-                  <input class="form-input" type="text" placeholder="name">
-                </div>
-              </div>
-              <div class="column col-6 col-xs-12">
-                <div class="input-group">
-                  <label class="form-checkbox">
-                    <input type="checkbox"><i class="form-icon"></i>
-                  </label>
-                  <input class="form-input" type="text" placeholder="name">
-                </div>
-              </div>
-              <div class="column col-6 col-xs-12">
-                <div class="input-group">
-                  <input class="form-input input-lg" type="text" placeholder="username">
-                  <select class="form-select select-lg">
-                    <option>Slack</option>
-                    <option>Skype</option>
-                    <option>Hipchat</option>
-                  </select>
-                </div>
-              </div>
-              <div class="column col-6 col-xs-12">
-                <div class="input-group"><span class="input-group-addon addon-lg">slack.com/</span>
-                  <input class="form-input input-lg" type="text" placeholder="site name">
-                  <button class="btn btn-primary input-group-btn btn-lg">Submit</button>
-                </div>
-              </div>
-            </div>
-            <p>If you want to attach text and button along with an input, add the <code>input-group</code> class to the input container.
-              And add the <code>input-group-addon</code> class to the text element and <code>input-group-btn</code> to the button element.
-            </p>
-            <pre class="code" data-lang="HTML"><code><span class="hljs-comment">&lt;!-- normal input group --&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"input-group"</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"input-group-addon"</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"text"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"form-input"</span> <span class="hljs-attr">placeholder</span>=<span class="hljs-string">"..."</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
-
-<span class="hljs-comment">&lt;!-- large input group --&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"input-group"</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"input-group-addon addon-lg"</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"text"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"form-input input-lg"</span> <span class="hljs-attr">placeholder</span>=<span class="hljs-string">"..."</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
-
-<span class="hljs-comment">&lt;!-- normal input group with button --&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"input-group"</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"input-group-addon"</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"text"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"form-input"</span> <span class="hljs-attr">placeholder</span>=<span class="hljs-string">"..."</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-primary input-group-btn"</span>&gt;</span>Submit<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
-</code></pre>
+            <!--+docs-subheading('forms-input-groups', 'Input groups')-->
+            <!--.docs-demo.columns
+            .column.col-6.col-xs-12
+              .input-group
+                input.form-input.input-sm(type="text" placeholder="username")
+                select.form-select.select-sm
+                  option Slack
+                  option Skype
+                  option Hipchat
+            .column.col-6.col-xs-12
+              .input-group
+                span.input-group-addon.addon-sm slack.com/
+                input.form-input.input-sm(type="text" placeholder="site name")
+                button.btn.btn-primary.input-group-btn.btn-sm Submit
+            .column.col-6.col-xs-12
+              .input-group
+                input.form-input(type="text" placeholder="username")
+                select.form-select
+                  option Slack
+                  option Skype
+                  option Hipchat
+            .column.col-6.col-xs-12
+              .input-group
+                span.input-group-addon slack.com/
+                input.form-input(type="text" placeholder="site name")
+                button.btn.btn-primary.input-group-btn Submit
+            .column.col-6.col-xs-12
+              .input-group
+                label.form-switch
+                  input(type="checkbox")
+                  i.form-icon
+                input.form-input(type="text" placeholder="name")
+            .column.col-6.col-xs-12
+              .input-group
+                label.form-checkbox
+                  input(type="checkbox")
+                  i.form-icon
+                input.form-input(type="text" placeholder="name")
+            .column.col-6.col-xs-12
+              .input-group
+                input.form-input.input-lg(type="text" placeholder="username")
+                select.form-select.select-lg
+                  option Slack
+                  option Skype
+                  option Hipchat
+            .column.col-6.col-xs-12
+              .input-group
+                span.input-group-addon.addon-lg slack.com/
+                input.form-input.input-lg(type="text" placeholder="site name")
+                button.btn.btn-primary.input-group-btn.btn-lg Submit
+            
+            -->
+            <!--p| If you want to attach text and button along with an input, add the <code>input-group</code> class to the input container.
+            | And add the <code>input-group-addon</code> class to the text element and <code>input-group-btn</code> to the button element.
+            
+            
+            
+            -->
             <h4 class="s-subtitle" id="forms-validation">Form validation styles<a class="anchor" href="#forms-validation" aria-hidden="true">#</a></h4>
             <div class="docs-demo columns">
               <div class="column col-9 col-sm-12">
