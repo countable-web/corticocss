@@ -3282,6 +3282,7 @@ a.text-error:visited {
 
 .bg-primary {
   background: #5c70ff !important;
+  color: white !important;
 }
 
 .bg-secondary {

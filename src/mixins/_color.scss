@@ -6,6 +6,10 @@
     @if (lightness($color) < 60) {
       color: $light-color;
     }
+
+    @if ($name == '.bg-primary') {
+      color: white !important;
+    }
   }
 }
 
