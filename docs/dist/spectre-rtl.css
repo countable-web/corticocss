@@ -793,10 +793,11 @@ a.btn:visited {
 }
 
 .btn.btn-action.btn-sm {
-  width: 1.4rem;
+  width: 2.25rem;
 }
 
 .btn.btn-action.btn-lg {
+  height: 2rem; 
   width: 2.25rem;
 }
 
@@ -891,7 +892,7 @@ legend {
 
 .form-label.label-sm {
   font-size: .7rem;
-  padding: .1rem 0;
+  padding: .525rem 0;
 }
 
 .form-label.label-lg {
@@ -940,7 +941,7 @@ legend {
 .form-input.input-sm {
   font-size: .7rem;
   height: 2.25rem;
-  padding: .05rem .3rem;
+  padding: .475rem .3rem;
 }
 
 .form-input.input-lg {
@@ -1010,7 +1011,7 @@ textarea.form-input.input-sm {
 .form-select.select-sm {
   font-size: .7rem;
   height: 2.25rem;
-  padding: .05rem 1.1rem .05rem .3rem;
+  padding: .475rem 1.1rem .475rem .3rem;
 }
 
 .form-select.select-lg {
@@ -1072,9 +1073,9 @@ textarea.form-input.input-sm {
 .form-switch {
   display: block;
   line-height: 1.2rem;
-  margin: .425rem 0;
-  min-height: 1.4rem;
-  padding: .1rem .4rem .1rem 1.2rem;
+  margin: 0rem 0;
+  min-height: 2.25rem;
+  padding: .525rem .4rem .525rem 1.2rem;
   position: relative;
 }
 
@@ -1124,7 +1125,7 @@ textarea.form-input.input-sm {
 .form-radio.input-lg,
 .form-switch.input-lg {
   font-size: .9rem;
-  margin: .425rem 0;
+  margin: 0rem 0;
 }
 
 .form-checkbox .form-icon,
@@ -1132,7 +1133,7 @@ textarea.form-input.input-sm {
   background: #fff;
   height: .8rem;
   left: 0;
-  top: .3rem;
+  top: .725rem;
   width: .8rem;
 }
 
@@ -1204,7 +1205,7 @@ textarea.form-input.input-sm {
   border-radius: .45rem;
   height: .9rem;
   left: 0;
-  top: .25rem;
+  top: .675rem;
   width: 1.6rem;
 }
 
@@ -1246,7 +1247,7 @@ textarea.form-input.input-sm {
 
 .input-group .input-group-addon.addon-sm {
   font-size: .7rem;
-  padding: .05rem .3rem;
+  padding: .475rem .3rem;
 }
 
 .input-group .input-group-addon.addon-lg {
