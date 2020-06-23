@@ -27,6 +27,7 @@ gulp.task('build', function() {
     .pipe(gulp.dest('./dist'))
     .pipe(cleancss())
     .pipe(rename({
+      prefix: 'cortico-',
       suffix: '.min'
     }))
     .pipe(gulp.dest('./dist'));

@@ -620,7 +620,7 @@ html:lang(ko),
 }
 
 a.btn {
-  line-height: 2rem;
+  line-height: 2.1rem;
 }
 
 a.btn:hover {
@@ -629,6 +629,14 @@ a.btn:hover {
 
 a.btn:visited {
   color: white;
+}
+
+a.btn:btn-success:hover {
+  color: #4b54f6;
+}
+
+a.btn.btn-success:visited {
+  color: #4b54f6;
 }
 
 .btn {
