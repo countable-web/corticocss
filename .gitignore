@@ -7,3 +7,4 @@ node_modules/
 !.hound.yml
 !.scss-lint.yml
 dist
+dist/*
