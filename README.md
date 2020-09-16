@@ -2,45 +2,28 @@
   <img src="https://picturepan2.github.io/spectre/img/spectre-logo.svg" width="72" height="72">
 </a>
 
-## Spectre.css
+## Cortico CSS
 
-Spectre.css is a lightweight, responsive and modern CSS framework.
+Cortico CSS is based on the Spectre.css framework.
 
-- Lightweight (~10KB gzipped) starting point for your projects
-- Flexbox-based, responsive and mobile-friendly layout
-- Elegantly designed and developed elements and components
+## Compiling the Cortico CSS framework
 
-Spectre is a side project based on years of CSS development work on a large web service project. Spectre only includes modern base styles, responsive layout system, CSS components and utilities, and it can be modified for your project with Sass/Scss compiler.
+You will need:
+- node 11.15.0
+- npm 6.7.0
+- gulp 3.9.1
 
-Spectre.css is completely free to use. If you enjoy it, please consider [donating via Paypal](https://www.paypal.me/picturepan2) or [via Patreon](https://www.patreon.com/spectrecss) for the further development. ♥ 
+Install gulp locally:
+```
+npm install -g gulp@3.9.1
+```
 
+Compile Cortico CSS:
+```
+npm install
+npx gulp build
+```
 
-## Getting started
-
-There are 5 ways to get started with Spectre CSS framework in your projects. You can either manually install or use NPM, Yarn and Bower.
-
-### Install manually
-Download the compiled and minified [Spectre CSS files](https://github.com/picturepan2/spectre/tree/master/docs/dist). And include `spectre.css` located in `/docs/dist` in your website or Web app &lt;head&gt; part.
-
-`<link rel="stylesheet" href="spectre.min.css">`
-
-### Install from CDN
-Alternatively, you can use the [unpkg](https://unpkg.com/) or [cdnjs](https://cdnjs.com/libraries/spectre.css) CDN to load compiled Spectre.css.
-
-`<link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">`
-
-### Install with NPM
-`$ npm install spectre.css --save`
-
-### Install with Yarn
-`$ yarn add spectre.css`
-
-### Install with Bower
-`$ bower install spectre.css --save`
-
-## Compiling custom version
-
-You can compile your custom version of Spectre.css. Read [the documentation](https://picturepan2.github.io/spectre/getting-started/custom.html).
 
 ## Documentation and examples
 
