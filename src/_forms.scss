@@ -97,6 +97,7 @@ textarea.form-input {
   color: $body-font-color;
   font-size: $font-size-sm;
   margin-top: $unit-1;
+  margin-bottom: $unit-1;
 
   .has-success &,
   .is-success + & {
